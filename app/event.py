@@ -20,3 +20,6 @@ class Event:
     def update_status(self, status):
         self.body["status"] = status
         return self.body
+
+    def get_event(self):
+        pass
